@@ -1,5 +1,5 @@
 # 1.  Ask user to enter charge for food.
-charge = input("What is the Cost of the Food? ")
+charge = int(input("What is the Cost of the Food? "))
 
 # 1.  Calculate 18 percent tip
 tip = (charge * (18 / 100))
